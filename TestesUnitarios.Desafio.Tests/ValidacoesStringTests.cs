@@ -38,7 +38,7 @@ public class ValidacoesStringTests
     public void NaoDeveConterAPalavraTesteNoTexto()
     {
         // Arrange
-        var texto = "três tigres tristes";
+        var texto = "Esse é um texto qualquer";
         var textoProcurado = "teste";
 
         // Act

@@ -1,3 +1,5 @@
+
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesString
@@ -18,6 +20,21 @@ namespace TestesUnitarios.Desafio.Console.Services
         {
             var termina = texto.EndsWith(textoProcurado);
             return termina;
+        }
+
+        public bool VerificarSeTextoContemPalavra(string texto, string palavraProcurada)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool VerificarSeTextoTerminaComPalavra(string texto, string palavraProcurada)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<object> ObterTamanhoDaPalavra(string palavra)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,3 +1,4 @@
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -28,6 +29,31 @@ namespace TestesUnitarios.Desafio.Console.Services
         public int RetornarMenorNumeroLista(List<int> lista)
         {
             return lista.Min();
+        }
+
+        public IEnumerable<object> ObterNumeroMinimoDaLista(List<int> listaOriginal)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<object> ObterNumeroMaximoDaLista(List<int> listaOriginal)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool VerificarSeListaContemNumero(List<int> listaOriginal, int numeroBuscado)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<int> ExcluirNumerosNegativos(List<int> listaOriginal)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<int> DobrarNumerosDaLista(List<int> listaOriginal)
+        {
+            throw new NotImplementedException();
         }
     }
 }
